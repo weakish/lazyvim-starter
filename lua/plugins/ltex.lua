@@ -1,8 +1,6 @@
-return { {
-  "neovim/nvim-lspconfig",
-  opts = {
-    servers = {
-      ltex = {},
-    },
+return {
+  {
+    "barreiroleo/ltex_extra.nvim",
+    dependencies = { "neovim/nvim-lspconfig" },
   },
-} }
+}

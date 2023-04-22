@@ -3,11 +3,11 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        marksman = {},
+        marksman = {}, -- markdown
       },
     },
     {
-      "barreiroleo/ltex_extra.nvim",
+      "barreiroleo/ltex_extra.nvim", -- LanguageTool
       dependencies = { "neovim/nvim-lspconfig" },
     },
   },
